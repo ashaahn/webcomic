@@ -1,9 +1,9 @@
 body {
-  font-family: "Chau Philomene One", sans-serif;
-  background-color: #FAEDCA;
+  font-family: "VT323", monospace;
+  background-color: #D1D0A3;
   margin: 0;
   padding: 0;
-  color: #7B9E87;
+  color: #D1D0A3;
 }
 
 .favorite-comic {
@@ -24,13 +24,13 @@ body {
 }
 
 nav {
-  background-color: #5E747F; /* muted maroon */
+  background-color: #7C6C77; /* muted maroon */
   padding: 1em;
   text-align: center;
 }
 
 nav a {
-  color:  #FAEDCA;
+  color:  #FAFDEC;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
