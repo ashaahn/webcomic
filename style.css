@@ -1,9 +1,9 @@
 body {
   font-family: "VT323", monospace;
-  background-color: #D1D0A3;
+  background-color: #181a50;
   margin: 0;
   padding: 0;
-  color: #D1D0A3;
+  color: #004390;
 }
 
 .favorite-comic {
@@ -24,29 +24,32 @@ body {
 }
 
 nav {
-  background-color: #7C6C77; /* muted maroon */
+  background-color: #D1D0A3; /* light green */
   padding: 1em;
   text-align: center;
+  font-size: 50px
 }
 
 nav a {
-  color:  #FAFDEC;
+  color:  #004390;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
   font-size: 1.2em;
+  
 }
 
 nav a.active,
 nav a:hover {
   text-decoration: underline;
-  color: #d6e8e6; /* light blue-gray highlight */
+  color: #FFE787; /* yellow */
 }
 
 main {
   padding: 2em;
-  max-width: 900px;
+  max-width: 2000px;
   margin: auto;
+  font-size: 30px
 }
 
 .comic-container {
@@ -56,12 +59,15 @@ main {
   align-items: center;
 }
 
+
+
 .comic-page {
   width: 100%;
-  max-width: 700px;
-  border: 3px solid #7a3b3b;
+  max-width: 1400px;
+  border: 3px solid;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
+  border-color: #FFE787
 }
 
 .about-page {
@@ -69,19 +75,24 @@ main {
 }
 
 .profile-pic {
-  width: 180px;
+  width: 390px;
   border-radius: 50%;
-  border: 5px solid #7a3b3b;
+  border: 5px solid #FFE787;
   margin-bottom: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1,
+h1 {
+    text-align: center;
+    color: #FFE787;
+}
 h2 {
-  color: #7B9E87;
+  color: #FFE787;
+  text-align: center;
+
 }
 
 p {
   line-height: 1.6;
-  color: #4b4b4b;
+  color: #FFE787;
 }
